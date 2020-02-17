@@ -1,0 +1,1 @@
+Put under this folder your dataset "lyrics.csv" if you wish tu run the .py files locally!

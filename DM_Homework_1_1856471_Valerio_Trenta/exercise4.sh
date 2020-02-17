@@ -1,0 +1,1 @@
+awk '{FS=OFS="\t"}{print $1, $5}' userid-timestamp-artid-artname-traid-traname.tsv | sort -nk2 | uniq -c | awk '{if ($1>19 && $2!="" && $3!="") print $2 "\t" $3}' | awk '{a[$1]=($1 in a ? a[$1] OFS:"")$2} END {for (i in a) print i "\t" a[i]}' | sort -nk2 > output_final_dataset.tsv 
