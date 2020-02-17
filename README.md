@@ -2,7 +2,7 @@
 Theoretical answers and exercises to the Data Mining course at Sapienza, a.y. 2019/2020.
 
 # Homework 1
-Point 2 and 3 of the first exercise are actually wrong - you guess why. The other exercises are correct,
+Points 2 and 3 of the first exercise are actually wrong - you guess why. The other exercises are correct,
 except some minor mistakes.
 
 # Homework 2
